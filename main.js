@@ -8,6 +8,7 @@ const client = new Discord.Client();
 const prefix = '!';
 
 //when the client is ready, run code
+//this event will trigger one time after logging in
 client.once('ready', () => {
     console.log('VikingBot is online!');
 });
