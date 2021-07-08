@@ -1,9 +1,13 @@
+
+//require the discrod.js module
 const Discord = require('discord.js');
 
+//create a new Discord client
 const client = new Discord.Client();
 
 const prefix = '!';
 
+//when the client is ready, run code
 client.once('ready', () => {
     console.log('VikingBot is online!');
 });
@@ -22,11 +26,15 @@ client.on('message', message => {
         message.channel.send('pong!');
     } else if (command === 'daddy' || command === "daddywatts") {
         message.channel.send('https://cdn.discordapp.com/attachments/633370859389583372/850129403086110771/20210603_145034.jpg');
+    } else if (command === 'shaggy') {
+        message.channel.send('https://pbs.twimg.com/media/DNfcOdpWAAYhDoo.jpg');
     }
 
 
 });
 
+
 //END OF FILE
+//login to Discord with your app's token
 client.login('ODUzNTUyMzQ4MDA0ODc2MzA4.YMXCkg.av7Zf0IRYkW_3S9WT9zdSEh6U5E');
 
