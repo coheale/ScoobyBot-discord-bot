@@ -39,11 +39,13 @@ client.on('message', message => {
     if(command === 'ping') {
         client.commands.get('ping').execute(message, args);
     } else if (command === 'daddy' || command === "daddywatts") {
-        message.channel.send('https://cdn.discordapp.com/attachments/633370859389583372/850129403086110771/20210603_145034.jpg');
+        client.commands.get('daddy').execute(message, args);
     } else if (command === 'shaggy') {
-        message.channel.send('https://pbs.twimg.com/media/DNfcOdpWAAYhDoo.jpg');
+        client.commands.get('shaggy').execute(message, args);
     } else if (command === 'youtube') {
         client.commands.get('youtube').execute(message, args);
+    } else if (command === 'commands') {
+        client.commands.get('commands').execute(message, args);
     }
 
 
