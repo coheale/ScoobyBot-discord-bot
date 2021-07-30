@@ -1,0 +1,4 @@
+**COMMANDS:**
+    !ping : responds with "pong!"
+    !daddy : responds with daddy watts
+    !daddywatts : responds with daddy watts
