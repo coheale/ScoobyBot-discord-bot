@@ -1,4 +1,5 @@
 **COMMANDS:**
-    !ping : responds with "pong!"
+    !commands : prints the available commands for this bot
     !daddy : responds with daddy watts
     !daddywatts : responds with daddy watts
+    !ping : responds with "pong!"
