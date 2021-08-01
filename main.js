@@ -23,7 +23,7 @@ for(const file of commandFiles) {
 //when the client is ready, run code
 //this event will trigger one time after logging in
 client.once('ready', () => {
-    console.log('VikingBot is online!');
+    console.log('ScoobyBot is online!');
 });
 
 client.on('message', message => {
@@ -46,6 +46,10 @@ client.on('message', message => {
         client.commands.get('youtube').execute(message, args);
     } else if (command === 'commands') {
         client.commands.get('commands').execute(message, args);
+    } else if (command === 'mod') {
+        client.commands.get('mod').execute(message, args);
+    } else if (command === 'removemod') {
+        client.commands.get('removemod').execute(message, args);
     }
 
 

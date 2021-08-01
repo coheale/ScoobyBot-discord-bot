@@ -3,3 +3,6 @@
     !daddy : responds with daddy watts
     !daddywatts : responds with daddy watts
     !ping : responds with "pong!"
+    !shaggy : responds with an image of shaggy
+    !youtube : responds with a link to youtube
+    
