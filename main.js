@@ -35,6 +35,11 @@ client.on('message', message => {
 
     const args = message.content.slice(prefix.length).split(/ +/);
     const command = args.shift().toLowerCase();
+    
+    // mentions the user if a mention occurs in the message
+    // const mention = message.mentions.users.first();
+    // message.channel.send(`${mention} cheese`);
+    message.channel.send(`${message.author}`);
 
     if(command === 'ping') {
         client.commands.get('ping').execute(message, args);
@@ -50,6 +55,8 @@ client.on('message', message => {
         client.commands.get('mod').execute(message, args);
     } else if (command === 'removemod') {
         client.commands.get('removemod').execute(message, args);
+    } else if (command === 'ban') {
+        client.commands.get('ban').execute(message, args);
     }
 
 
