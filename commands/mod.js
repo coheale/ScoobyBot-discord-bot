@@ -1,3 +1,4 @@
+const { Guild } = require("discord.js");
 const { execute } = require("./commands");
 
 module.exports = {
@@ -9,6 +10,7 @@ module.exports = {
         } else {
             message.channel.send('You don\'t have the right permissions, we\'ll give it to you!');
             message.member.roles.add('871461989166235719');
+            
         }
     }
-}
+} 
