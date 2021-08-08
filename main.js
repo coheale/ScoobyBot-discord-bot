@@ -56,8 +56,8 @@ client.on('message', message => {
         client.commands.get('removemod').execute(message, args);
     } else if (command === 'canban') {
         client.commands.get('canban').execute(message, args);
-    } else if (command === 'embed') {
-        client.commands.get('embed').execute(message, args, Discord);
+    } else if (command === 'glasgow') {
+        client.commands.get('glasgowEmbed').execute(message, args, Discord);
     }
 
 
