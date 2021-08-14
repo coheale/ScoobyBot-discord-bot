@@ -58,6 +58,8 @@ client.on('message', message => {
         client.commands.get('canban').execute(message, args);
     } else if (command === 'glasgow') {
         client.commands.get('glasgowEmbed').execute(message, args, Discord);
+    } else if (command === 'edinburgh') {
+        client.commands.get('edinburghEmbed').execute(message, args, Discord);
     }
 
 

@@ -6,7 +6,7 @@ module.exports = {
         .setColor('#99E6FF')
         .setTitle('GLASGOW')
         .setURL('https://en.wikipedia.org/wiki/Glasgow')
-        .setDescription('This is a embed for the Glasgow Wikipedia Page')
+        .setDescription('This is an embed for the Glasgow Wikipedia Page')
         .addFields(
             {name : 'City Center:', value: 'Glasgow City Center'}
         )
