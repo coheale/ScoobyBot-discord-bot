@@ -1,6 +1,7 @@
 **COMMANDS:**
-    !ban : tells the user whether or not they have the permission to ban other users
+    !canban : tells the user whether or not they have the permission to ban other users
     !commands : prints the available commands for this bot
+    !clear : clears the amount of messages passed as an argument (MAX 10)
     !daddy : responds with daddy watts
     !daddywatts : responds with daddy watts
     !edinburgh : City of Edinburgh embed

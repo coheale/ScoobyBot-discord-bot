@@ -60,6 +60,8 @@ client.on('message', message => {
         client.commands.get('glasgowEmbed').execute(message, args, Discord);
     } else if (command === 'edinburgh') {
         client.commands.get('edinburghEmbed').execute(message, args, Discord);
+    } else if (command === 'clear') {
+        client.commands.get('clear').execute(message, args);
     }
 
 
