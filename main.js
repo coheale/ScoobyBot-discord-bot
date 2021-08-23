@@ -49,7 +49,7 @@ client.on('message', message => {
     } else if (command === 'youtube') {
         client.commands.get('youtube').execute(message, args);
     } else if (command === 'commands') {
-        client.commands.get('commands').execute(message, args);
+        client.commands.get('commands').execute(message, args, Discord);
     } else if (command === 'mod') {
         client.commands.get('mod').execute(message, args);
     } else if (command === 'removemod') {
@@ -62,6 +62,8 @@ client.on('message', message => {
         client.commands.get('edinburghEmbed').execute(message, args, Discord);
     } else if (command === 'clear') {
         client.commands.get('clear').execute(message, args);
+    } else if (command === 'kick') {
+        client.commands.get('kick').execute(message, args);
     }
 
 
