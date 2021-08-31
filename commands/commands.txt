@@ -1,4 +1,4 @@
-
+    !ban : Bans the given user
     !canban : tells the user whether or not they have the permission to ban other users
     !commands : prints the available commands for this bot
     !clear : clears the amount of messages passed as an argument (MAX 10)
