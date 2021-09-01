@@ -2,6 +2,9 @@
 //require the discrod.js module
 const Discord = require('discord.js');
 
+//requiring dotenv to hide bot token effectively using envrionmental variable 
+require('dotenv').config();
+
 //create a new Discord client
 const client = new Discord.Client();
 
@@ -76,5 +79,5 @@ client.on('message', message => {
 
 //END OF FILE
 //login to Discord with your app's token
-client.login('ODUzNTUyMzQ4MDA0ODc2MzA4.YMXCkg.av7Zf0IRYkW_3S9WT9zdSEh6U5E');
+client.login(process.env.DISCORD_TOKEN);
 

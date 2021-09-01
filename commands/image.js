@@ -11,6 +11,7 @@ module.exports = {
     description : 'Searches for an image and posts to the chat',
     async execute(message, args){
         const image_search = args.join(' ');
+        message.channel.send("Searching for first result of : " + image_search);
         if(!image_search) {
             return message.channel.send('Please enter an image to search for');
         }
