@@ -8,3 +8,5 @@ Discord Bot
   discord.js
 
   images-scraper
+  
+  dotenv
