@@ -2,6 +2,6 @@
 Discord Bot
 
 Dependencies: 
-  Node Modules:
-    discord.js
-    images-scraper
+  \n\tNode Modules:
+    \n\t\tdiscord.js
+    \n\t\timages-scraper
