@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/LambdaRamen02/discord-bot#readme",
   "dependencies": {
-    "discord.js": "^12.5.3"
+    "discord.js": "^12.5.3",
+    "images-scraper": "^6.4.0"
   },
   "devDependencies": {
     "eslint": "^7.32.0"
