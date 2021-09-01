@@ -66,6 +66,8 @@ client.on('message', message => {
         client.commands.get('kick').execute(message, args);
     } else if (command === 'ban') {
         client.commands.get('ban').execute(message, args);
+    } else if (command === 'image') {
+        client.commands.get('image').execute(message, args);
     }
 
 

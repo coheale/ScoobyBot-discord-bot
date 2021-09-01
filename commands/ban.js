@@ -11,7 +11,7 @@ module.exports = {
         if(user) {
             const targUser = message.guild.members.cache.get(user.id);
             targUser.ban();
-            message.channel.send(targUser.toString() + " User has been \`banned\`");
+            message.channel.send(targUser.toString() + " User has been \`BANNED\`");
         } else {
             message.channel.send('Cannot ban the user provided.');
         }
