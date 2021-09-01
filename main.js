@@ -79,5 +79,5 @@ client.on('message', message => {
 
 //END OF FILE
 //login to Discord with your app's token
-client.login(process.env.DISCORD_TOKEN);
+client.login(process.env.BOT_TOKEN);
 
