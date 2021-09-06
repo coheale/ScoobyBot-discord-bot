@@ -10,6 +10,10 @@ module.exports = {
     name : 'image',
     description : 'Searches for an image and posts to the chat',
     async execute(message, args){
+        // Spence id: 361943375697412098
+        // if(message.author.id === '361943375697412098') {
+        //     return message.reply('You cannot use the image search function because you are lame');
+        // }
         const image_search = args.join(' ');
         message.channel.send("Searching for first result of : " + image_search);
         if(!image_search) {
