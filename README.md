@@ -1,4 +1,4 @@
-# discord-bot
+# scooby-discord-bot
 Discord Bot
 
 # Dependencies 
