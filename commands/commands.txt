@@ -2,8 +2,7 @@
     !canban : tells the user whether or not they have the permission to ban other users
     !commands : prints the available commands for this bot
     !clear : clears the amount of messages passed as an argument (MAX 10)
-    !daddy : responds with daddy watts
-    !daddywatts : responds with daddy watts
+    !daniel : responds with image of daniel
     !edinburgh : City of Edinburgh embed
     !glasgow : City of Glasgow embed
     !image : Searches Google for image of argument
@@ -11,6 +10,6 @@
     !mod : sends a message to mod if the user is a mod
     !ping : responds with "pong!"
     !removemod : removes the mod role from the person sending the command
-    !shaggy : responds with an image of shaggy
+    !shaggy : responds with an image of Shaggy from scooby-doo
     !youtube : responds with a link to youtube
     

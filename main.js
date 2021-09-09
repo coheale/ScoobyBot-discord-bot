@@ -45,8 +45,8 @@ client.on('message', message => {
 
     if(command === 'ping') {
         client.commands.get('ping').execute(message, args);
-    } else if (command === 'daddy' || command === "daddywatts") {
-        client.commands.get('daddy').execute(message, args);
+    } else if (command === 'daniel') {
+        client.commands.get('daniel').execute(message, args);
     } else if (command === 'shaggy') {
         client.commands.get('shaggy').execute(message, args);
     } else if (command === 'youtube') {
@@ -78,5 +78,5 @@ client.on('message', message => {
 
 
 //END OF FILE
-//login to Discord with your app's token
+//login to Discord with app's token, hidden in local .env file
 client.login(process.env.BOT_TOKEN);
