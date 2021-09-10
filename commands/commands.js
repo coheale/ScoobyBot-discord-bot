@@ -22,7 +22,7 @@ module.exports = {
             .setDescription('This is an embed displaying the commands of ScoobyBot')
             .addFields(
                 {name : 'COMMANDS:', value : content},
-                {name : 'WHO IS NOT THE BOSS:', value : 'Lars is NOT the boss'}
+                {name : 'MORE COMMANDS TO BE ADDED IN THE FUTURE', value : 'Check back for future updates'}
             )
             .setFooter('If you\'re reading this, high five!');
             message.channel.send(allCommands);
